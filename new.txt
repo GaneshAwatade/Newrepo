@@ -1,0 +1,5 @@
+git status - checking the status
+git checkout branch_name - connecting to non master branch_name
+git add . - to track or adding changes to the branch_name
+git commit -m "commit/save_comment"
+git push origin branch_name
