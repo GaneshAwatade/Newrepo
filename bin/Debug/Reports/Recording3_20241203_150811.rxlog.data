@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="64662"
+		type="root"
+		rid="8ef1c3d541d0d0c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="GaneshChandra"
+		rxversion="11.6.1.0"
+		host="CELSYS184-BLR"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/3/2024 3:08:14 PM"
+		timestampiso="2024-12-03T09:38:14"
+		endtime="12/3/2024 3:09:19 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording3">
+		<detail>
+			Recording3
+		</detail>
+		<errormessage>
+			Failed to find item 'MycalcuRepository.Calculator.ClearButton'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.497"
+			timeRelativeToTestModuleStartTime="00:04.497"
+			timeWallClock="15:08:18"
+			time="00:04.497"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_b7e79c76\Recordin_b7e79c76_f7173af0_trace.jpg"
+			errthumb="images_Recordin_b7e79c76\Recordin_b7e79c76_f7173af0_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Calculator.ClearButton' at 40;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='DisplayControls']/button[@automationid='clearButton']"
+				itempath=".//container[@automationid='DisplayControls']/button[@automationid='clearButton']"
+				fullname="MycalcuRepository.Calculator.ClearButton"
+				id="d3d7043320eb46dbaf3447dc7a41ea00"
+				timeout="60000"
+				codefile="C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\Recording3.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:04.551"
+			timeRelativeToTestModuleStartTime="01:04.551"
+			timeWallClock="15:09:18"
+			time="01:04.551"
+			level="Info"
+			category="User"
+			errimg="images_Recordin_b7e79c76\Recordin_b7e79c76_f996a9f0_trace.jpg"
+			errthumb="images_Recordin_b7e79c76\Recordin_b7e79c76_f996a9f0_trace_thumb.jpg">
+			<message>
+				Item 'ClearButton' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\Recording3.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:04.577"
+			timeRelativeToTestModuleStartTime="01:04.577"
+			timeWallClock="15:09:18"
+			time="01:04.577"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_b7e79c76\Recordin_b7e79c76_4b0232b3_trace.jpg"
+			errthumb="images_Recordin_b7e79c76\Recordin_b7e79c76_4b0232b3_trace_thumb.jpg">
+			<message>
+				Failed to find item 'MycalcuRepository.Calculator.ClearButton'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='DisplayControls']/button[@automationid='clearButton']' at step 'descendant-or-self::button[@automationid='clearButton']' after 829 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.get_ClearButton() in C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\MycalcuRepository.cs:line 265&#13;&#10;   at Mycalcu.Recording3.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\Recording3.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\Recording3.cs"
+				codeline="83"
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='DisplayControls']/button[@automationid='clearButton']"
+				itempath=".//container[@automationid='DisplayControls']/button[@automationid='clearButton']"
+				fullname="MycalcuRepository.Calculator.ClearButton"
+				id="d3d7043320eb46dbaf3447dc7a41ea00"
+				timeout="60000"
+				failedStep="descendant-or-self::button[@automationid='clearButton']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

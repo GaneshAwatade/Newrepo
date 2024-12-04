@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="54adc0ea-c736-4668-a40d-fa1e2859c506"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="Mycalcu">
+	</codegen>
+	<variables>
+		<var
+		id="216b9765-69b8-414d-ae33-eabb874a776b"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				Microsoft.WindowsCalculator_8wekyb3d8bbwe!App
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="1342ffdb-6255-4bd4-817d-3a20cb10b3a2"
+	name="MycalcuRepository"
+	relativepath="MycalcuRepository.rxrep">
+		<codegen
+		classname="MycalcuRepository"
+		namespace="Mycalcu">
+		</codegen>
+		<rootfolder
+		id="8bbab2f3-0672-4fed-a877-513b7a493abb"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

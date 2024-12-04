@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="03972c58-ac9e-469e-8444-30189c462c38"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="Mycalcu">
+	</codegen>
+	<variables>
+		<var
+		id="bbc2fe9e-af6e-4679-b5c3-a53188f7238a"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="0f783098-2a92-4356-8581-0bd1b9b153ee">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="1342ffdb-6255-4bd4-817d-3a20cb10b3a2"
+	name="MycalcuRepository"
+	relativepath="MycalcuRepository.rxrep">
+		<codegen
+		classname="MycalcuRepository"
+		namespace="Mycalcu">
+		</codegen>
+		<rootfolder
+		id="8bbab2f3-0672-4fed-a877-513b7a493abb"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

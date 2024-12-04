@@ -1,0 +1,12 @@
+C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\bin\Debug\Mycalcu.rxtmg
+C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\bin\Debug\Mycalcu.rxtst
+C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\bin\Debug\Mycalcu.exe.config
+C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\bin\Debug\Mycalcu.xml
+C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\bin\Debug\Mycalcu.exe
+C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\bin\Debug\Mycalcu.pdb
+C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\obj\x86\Debug\Mycalcu.csproj.AssemblyReference.cache
+C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\obj\x86\Debug\Mycalcu.csproj.CoreCompileInputs.cache
+C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\obj\x86\Debug\Mycalcu.csproj.CopyComplete
+C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\obj\x86\Debug\Mycalcu.exe
+C:\Users\GaneshChandra\Documents\Ranorex\RanorexStudio Projects\Mycalcu\Mycalcu\obj\x86\Debug\Mycalcu.pdb

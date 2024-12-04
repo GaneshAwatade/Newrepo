@@ -1,0 +1,235 @@
+﻿<repository
+id="1342ffdb-6255-4bd4-817d-3a20cb10b3a2"
+name="MycalcuRepository">
+	<codegen
+	classname="MycalcuRepository"
+	namespace="Mycalcu">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="8bbab2f3-0672-4fed-a877-513b7a493abb"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="310e17de-5bfb-4251-ab8d-8ce24ee4f36f"
+		isrooted="True"
+		name="Calculator"
+		refpath="/winapp[@packagename='Microsoft.WindowsCalculator']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="button"
+			id="71a4f89f-a143-4af9-9fa9-927bd2f62d33"
+			name="PlusButton"
+			refimgid="4490c456-da85-4687-b0eb-fdaa6c89d602"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='StandardOperators']/button[@automationid='plusButton']"
+			robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='plusButton']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='StandardOperators']/button[@automationid='plusButton']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="button"
+			id="e1f6bf84-59b6-4523-b0f2-c3993775fbcc"
+			name="EqualButton"
+			refimgid="5d24d73b-7701-4ac9-9d0b-e65fdb916418"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='StandardOperators']/button[@automationid='equalButton']"
+			robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='equalButton']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='StandardOperators']/button[@automationid='equalButton']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationscrollitem"
+			capname="text"
+			id="9296e89f-f629-43b1-aa59-25a41f0e7fa5"
+			name="Header"
+			refimgid="dae55591-ec9f-47a1-b13b-dd9a1e325dde"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element[@automationid='NavView']/text[@automationid='Header']"
+			robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/text[@automationid='Header']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/text[@automationid='Header']
+			</item>
+			<folder
+			addcaps="container,uiautomation,uiautomationscrollitem"
+			capname="container"
+			id="a400a1ee-ba62-4a97-a40f-d33790cde0bd"
+			isrooted="True"
+			name="NumberPad"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element[@automationid='NavView']/container[@classname='LandmarkTarget']/container[@automationid='NumberPad']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="c19d65b4-4d4d-48fa-b10b-bacf12bccf1b"
+				name="Num2Button"
+				refimgid="20546c20-ca98-41dd-8c3d-d465306ef46f"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='NumberPad']/button[@automationid='num2Button']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num2Button']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num2Button']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="dfa8f8e7-8a92-47f9-9974-e663d236a953"
+				name="Text2"
+				refimgid="55021568-1e6b-4dc6-9c7a-3856c07b2efd"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='NumberPad']/button[@automationid='num2Button']/text[@name='2']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//text[@name='2']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num2Button']/text[@name='2']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="543017e3-8ca4-4df4-a714-5e49937baa1c"
+				name="Num3Button"
+				refimgid="dcdd75c5-0e60-4a10-a9fc-86631c0f8ffc"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='NumberPad']/button[@automationid='num3Button']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num3Button']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num3Button']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="53fdfe44-0bb3-4afd-9d7e-4e039bccb717"
+				name="Num5Button"
+				refimgid="0b87455a-4215-4696-9a57-bf2ed4140e7f"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='NumberPad']/button[@automationid='num5Button']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num5Button']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num5Button']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="a2511167-30f8-4eb0-8107-1cb8dc6b85c2"
+				name="Text3"
+				refimgid="dc29073f-e6b9-4003-b330-284dc80eaba5"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='NumberPad']/button[@automationid='num3Button']/text[@name='3']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num3Button']/text[@name='3']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="a0306f33-104a-490d-a5bb-6648dbd987c7"
+				name="Num6Button"
+				refimgid="e7e967ac-545c-4867-af9d-9a18471aa9f8"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='NumberPad']/button[@automationid='num6Button']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num6Button']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="e96e78fa-1d21-4dd4-90bc-63d5861d776a"
+				name="Num1Button"
+				refimgid="fb759cb3-a22b-4c3b-aa4c-f8747f19fcc0"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='NumberPad']/button[@automationid='num1Button']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num1Button']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="3136aaf3-1e53-4822-bdd2-ae10a2808a5d"
+				name="Num4Button"
+				refimgid="fb8a9f9b-0706-4140-a914-31076b7ba801"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='NumberPad']/button[@automationid='num4Button']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num4Button']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="b4c627f4-481f-460c-ad70-1652b691f4a6"
+				name="Num8Button"
+				refimgid="0472d651-2d90-430d-b18c-3ae7749c560c"
+				refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='NumberPad']/button[@automationid='num8Button']"
+				robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']"
+				searchtimeout="30000ms">
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']/button[@automationid='num8Button']
+				</item>
+				<basepath>
+					/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='NumberPad']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="button"
+			id="122b313e-c8ce-4c2c-92a0-b95f980a5cc0"
+			name="MinusButton"
+			refimgid="a3d98aea-17f9-4775-b053-c974c69b466e"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='StandardOperators']/button[@automationid='minusButton']"
+			robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='minusButton']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='StandardOperators']/button[@automationid='minusButton']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationscrollitem"
+			capname="text"
+			id="7b4e06ac-b29a-492d-9adf-458ffc1c7f18"
+			name="SomeText"
+			refimgid="cb176a00-72f4-4274-a2c9-bc75cc62c2ac"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='StandardOperators']/button[@automationid='equalButton']/text[@name='']"
+			robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//text[@name='']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='StandardOperators']/button[@automationid='equalButton']/text[@name='']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="button"
+			id="d3d70433-20eb-46db-af34-47dc7a41ea00"
+			name="ClearButton"
+			refimgid="9004478b-84b5-43aa-a1d7-9c26affdd37a"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator' and @appid='App' and @name='Calculator' and @classname='Windows.UI.Core.CoreWindow' and @title='Calculator' and @processname='CalculatorApp' and @instance='0']/element/container/container[@automationid='DisplayControls']/button[@automationid='clearButton']"
+			robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='clearButton']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']//container[@automationid='DisplayControls']/button[@automationid='clearButton']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="button"
+			id="ac1f3c44-ee9c-40a7-9cd1-75c6093326ab"
+			name="TogglePaneButton"
+			refimgid="f03d3457-4abe-479e-acb4-8097d446ef80"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/element[@automationid='NavView']/button[@automationid='TogglePaneButton']"
+			robustPath="/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='TogglePaneButton']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='TogglePaneButton']
+			</item>
+			<basepath>
+				/winapp[@packagename='Microsoft.WindowsCalculator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH9SURBVDhPdZDJTpRBFIV5BSZfQxONJkQURWlw
+iC/hhM3U89//PE9ND6CIvolxwUIXGodESWvEaDTGtXECFMTjvS3ViSlZVHIW9X2nTvX0KG3wOeSu
+oLZ4G8nCLcStZUTNmwgbSwjqS/Dnb8CrXYebLsJJFnDAvNthOkeElMCEwL0gO27B2j1m1JQFcXMZ
+dtTAhY+/cf7DDs6++4XxN9sYe7WF0fYPjDzbwNHH65gp6dCDhizgZt1Pce79DibebiOztoVTL37i
+xPNNDD9Zx9CDbzh87wuyRQ2qPy8L+MmamyLzmsCXBK5u4tjTDQw9/I4j97/i4Mpn7L/zCZN5FYpb
+kwW81aatGtlVr4YqyRQnQcWOUbZilMwIRSOEYico05EEDPMHPVpd6xzeKXKVGkVmuERCSWBGLRhh
+s3uRd4pccdJuLtJLCkYkC4ywQa317kXeKTI3ipynGTk9kAWaX6ft/28tUGvvmRp6J1LMaQFmVV8W
+VOnj9mrN6SHBCfrGY8xUPUwrrizgRv4gAfFOkec0H32ZEP1jPqYIzlYcWVCyEhT/aQ26mVv7T3sY
+GHWQLduYLNmygHfyBwmId4o8RY0DJy0MjugEW7haNGVBnnbyBwlomlpFvkatg8dV7BtWcKVg4nLe
+kAW8c1b1Os8VOxn822h1wUs5HRdz2q6gjT9SQp+y3+nSYwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

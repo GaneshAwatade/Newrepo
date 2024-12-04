@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Mycalcu"
+      id="319ad060-dd4a-48ea-848f-2dd6a0ef280c"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Mycalcu"
+      id="319ad060-dd4a-48ea-848f-2dd6a0ef280c"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Mycalcu</name>
+    </assembly>
+    <members>
+        <member name="T:Mycalcu.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:Mycalcu.CloseAUT.repo">
+            <summary>
+            Holds an instance of the MycalcuRepository repository.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Mycalcu.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Mycalcu.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Mycalcu.MycalcuRepository">
+            <summary>
+            The class representing the MycalcuRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MycalcuRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.MycalcuRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepository.Calculator">
+            <summary>
+            The Calculator folder.
+            </summary>
+        </member>
+        <member name="T:Mycalcu.MycalcuRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder">
+            <summary>
+            The CalculatorAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Calculator  folder.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.PlusButton">
+            <summary>
+            The PlusButton item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.PlusButtonInfo">
+            <summary>
+            The PlusButton item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.EqualButton">
+            <summary>
+            The EqualButton item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.EqualButtonInfo">
+            <summary>
+            The EqualButton item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.Header">
+            <summary>
+            The Header item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.HeaderInfo">
+            <summary>
+            The Header item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.MinusButton">
+            <summary>
+            The MinusButton item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.MinusButtonInfo">
+            <summary>
+            The MinusButton item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.SomeText">
+            <summary>
+            The SomeText item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.SomeTextInfo">
+            <summary>
+            The SomeText item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.ClearButton">
+            <summary>
+            The ClearButton item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.ClearButtonInfo">
+            <summary>
+            The ClearButton item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.TogglePaneButton">
+            <summary>
+            The TogglePaneButton item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.TogglePaneButtonInfo">
+            <summary>
+            The TogglePaneButton item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.CalculatorAppFolder.NumberPad">
+            <summary>
+            The NumberPad folder.
+            </summary>
+        </member>
+        <member name="T:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder">
+            <summary>
+            The NumberPadFolder folder.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NumberPad  folder.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num2Button">
+            <summary>
+            The Num2Button item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num2ButtonInfo">
+            <summary>
+            The Num2Button item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Text2">
+            <summary>
+            The Text2 item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Text2Info">
+            <summary>
+            The Text2 item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num3Button">
+            <summary>
+            The Num3Button item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num3ButtonInfo">
+            <summary>
+            The Num3Button item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num5Button">
+            <summary>
+            The Num5Button item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num5ButtonInfo">
+            <summary>
+            The Num5Button item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Text3">
+            <summary>
+            The Text3 item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Text3Info">
+            <summary>
+            The Text3 item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num6Button">
+            <summary>
+            The Num6Button item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num6ButtonInfo">
+            <summary>
+            The Num6Button item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num1Button">
+            <summary>
+            The Num1Button item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num1ButtonInfo">
+            <summary>
+            The Num1Button item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num4Button">
+            <summary>
+            The Num4Button item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num4ButtonInfo">
+            <summary>
+            The Num4Button item info.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num8Button">
+            <summary>
+            The Num8Button item.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.MycalcuRepositoryFolders.NumberPadFolder.Num8ButtonInfo">
+            <summary>
+            The Num8Button item info.
+            </summary>
+        </member>
+        <member name="T:Mycalcu.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Mycalcu.Recording1.repo">
+            <summary>
+            Holds an instance of the MycalcuRepository repository.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Mycalcu.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Mycalcu.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Mycalcu.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:Mycalcu.Recording2.repo">
+            <summary>
+            Holds an instance of the MycalcuRepository repository.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Mycalcu.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Mycalcu.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Mycalcu.Recording3">
+             <summary>
+            The Recording3 recording.
+             </summary>
+        </member>
+        <member name="F:Mycalcu.Recording3.repo">
+            <summary>
+            Holds an instance of the MycalcuRepository repository.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.Recording3.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.Recording3.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.Recording3.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Mycalcu.Recording3.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.Recording3.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Mycalcu.Recording3.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Mycalcu.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:Mycalcu.StartAUT.repo">
+            <summary>
+            Holds an instance of the MycalcuRepository repository.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Mycalcu.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Mycalcu.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Mycalcu.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Mycalcu.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
